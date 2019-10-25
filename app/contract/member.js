@@ -11,8 +11,12 @@
 
 module.exports = {
     // 会员基本信息类型
-    MemberInfo: {
-        id: { type: 'integer' },    // 标识
-        name: { type: 'string' },   // 名称
+    MemberDto: {
+        Id: { type: 'integer' },    // 标识
+        Name: { type: 'string' },   // 名称
+    },
+    // 新增会员模型
+    CreateMemberDto: {
+        Name: { type: 'string' },   // 名称
     }
 };

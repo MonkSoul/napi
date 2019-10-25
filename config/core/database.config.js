@@ -15,5 +15,9 @@ module.exports = {
     port: 3306, // 数据库连接端口号
     database: "napi", // 数据库名称
     username: "root",   // 数据库登录用户名
-    password: "haosql"   // 数据库登录密码
+    password: "haosql",   // 数据库登录密码
+    define: {
+        freezeTableName: true,
+        timestamps: false
+    }
 };

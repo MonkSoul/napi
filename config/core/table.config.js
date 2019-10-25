@@ -10,5 +10,5 @@
  */
 
 module.exports = {
-    Member: "member"
+    Member: "member"    // 会员表名称
 };

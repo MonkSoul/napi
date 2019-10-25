@@ -18,7 +18,7 @@ module.exports = app => {
     tableName: 'member'
   });
 
-  Model.associate = function() {
+  Model.associate = function () {
 
   }
 
