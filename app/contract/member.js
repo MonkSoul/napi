@@ -15,8 +15,8 @@ module.exports = {
         Id: { type: 'integer' },    // 标识
         Name: { type: 'string' },   // 名称
     },
-    // 新增会员模型
-    CreateMemberDto: {
+    // 新增/编辑会员模型
+    CreateOrUpdateMemberDto: {
         Name: { type: 'string' },   // 名称
     }
 };

@@ -34,6 +34,40 @@ class MemberService extends Service {
         const results = await ctx.model.Member.create(model);
         return results.dataValues;
     }
+
+    /**
+     * 更新会员
+     * @param {*} id 会员Id
+     * @param {*} model 会员信息
+     */
+    async update(id, model) {
+        const { ctx } = this;
+
+        const entity = await ctx.model.Member.findByPk(id);
+        if (!entity) {
+            console.error("未找到该信息");
+            return;
+        }
+
+        const results = await entity.update(model);
+        return results;
+    }
+
+    /**
+     * 删除会员
+     * @param {*} id 会员Id
+     */
+    async destroy(id) {
+        const { ctx } = this;
+        const entity = await ctx.model.Member.findByPk(id);
+        if (!entity) {
+            console.error("未找到该信息");
+            return;
+        }
+
+        const results = await entity.destroy();
+        return results;
+    }
 }
 
 module.exports = MemberService;
