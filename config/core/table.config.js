@@ -11,5 +11,6 @@
 
 module.exports = {
     Member: "member",    // 会员表名称
-    Book: "book"    // 图书表名称
+    Book: "book",    // 图书表名称
+    Student: "student" // 学生表名称
 };
