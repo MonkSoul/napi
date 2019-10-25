@@ -9,7 +9,6 @@
  * 修改时间：NONE
  */
 
-const MemberContract = require("../contract/member");
 const { JsonBody } = require("../util/ResultHelper");
 const { Controller } = require("egg");
 
@@ -28,8 +27,8 @@ class MemberController extends Controller {
         const { ctx, service } = this;
 
         var id = ctx.query.id;
-        const member = await service.member.getById(id);
-        ctx.body = JsonBody(member);
+        const entity = await service.member.getById(id);
+        ctx.body = JsonBody(entity);
     }
 
     /**

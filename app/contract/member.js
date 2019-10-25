@@ -12,6 +12,6 @@
 module.exports = {
     // 新增/编辑会员模型
     CreateOrUpdateMemberDto: {
-        Name: { type: 'string' },   // 名称
+        Name: { type: 'string', required: true },   // 名称
     }
 };
