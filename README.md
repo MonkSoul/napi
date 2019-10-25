@@ -25,6 +25,10 @@ NAPI 项目目录
 │  ├─util                        工具目录
 │  ├─router.js                   路由配置
 ├─config                         配置目录
+│  ├─core                        核心配置目录
+│  │  ├─database.config.js       数据库配置
+│  │  ├─swagger.config.js        接口文档信息配置
+│  │  ├─table.config.js          数据库表配置
 │  ├─config.default.js           默认配置文件
 │  ├─plugin.js                   第三方插件配置文件
 ├─logs                           日志保存目录

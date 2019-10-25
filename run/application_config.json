@@ -105,6 +105,7 @@
         "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\locales",
         "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\locales",
         "E:\\github\\napi\\node_modules\\_egg-swagger-doc@2.3.2@egg-swagger-doc\\config\\locales",
+        "E:\\github\\napi\\node_modules\\_egg-sequelize@5.2.0@egg-sequelize\\config\\locales",
         "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\locales",
         "E:\\github\\napi\\config\\locales"
       ],
@@ -200,6 +201,14 @@
       "routerMap": true,
       "enable": true
     },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "napi",
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 6>"
+    },
     "env": "local",
     "name": "napi",
     "keys": "<String len: 13>",
@@ -213,7 +222,8 @@
       "version": "1.0.0",
       "description": "",
       "scripts": {
-        "dev": "egg-bin dev"
+        "dev": "egg-bin dev",
+        "dbinit": "egg-sequelize-auto -o ./app/model -h localhost -p 3306 -d napi -u root -x haosql"
       },
       "repository": {
         "type": "git",
@@ -234,12 +244,14 @@
       "homepage": "https://github.com/MonkSoul/napi#readme",
       "dependencies": {
         "egg": "^2.24.0",
+        "egg-sequelize": "^5.2.0",
         "egg-swagger-doc": "^2.3.2",
-        "mysql2": "^1.7.0",
-        "sequelize": "^5.21.1"
+        "mysql2": "^1.7.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.14.0"
+        "egg-bin": "^4.14.0",
+        "egg-sequelize-auto": "^0.1.1",
+        "mysql2": "^1.7.0"
       }
     },
     "baseDir": "E:\\github\\napi",
@@ -344,14 +356,6 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "dbconfig": {
-      "dialect": "mysql",
-      "host": "120.78.65.118",
-      "port": 3306,
-      "database": "youlian_rc",
-      "username": "test",
-      "password": "<String len: 13>"
-    },
     "coreMiddlewares": "~config~coreMiddleware",
     "appMiddlewares": [],
     "appMiddleware": "~config~appMiddlewares",
@@ -525,6 +529,17 @@
       "from": "E:\\github\\napi\\config\\plugin.js",
       "path": "E:\\github\\napi\\node_modules\\_egg-swagger-doc@2.3.2@egg-swagger-doc",
       "version": "2.3.2"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "E:\\github\\napi\\config\\plugin.js",
+      "path": "E:\\github\\napi\\node_modules\\_egg-sequelize@5.2.0@egg-sequelize",
+      "version": "5.2.0"
     }
   }
 }

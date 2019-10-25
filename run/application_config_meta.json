@@ -1,13 +1,5 @@
 {
   "keys": "E:\\github\\napi\\config\\config.default.js",
-  "dbconfig": {
-    "dialect": "E:\\github\\napi\\config\\config.default.js",
-    "host": "E:\\github\\napi\\config\\config.default.js",
-    "port": "E:\\github\\napi\\config\\config.default.js",
-    "database": "E:\\github\\napi\\config\\config.default.js",
-    "username": "E:\\github\\napi\\config\\config.default.js",
-    "password": "E:\\github\\napi\\config\\config.default.js"
-  },
   "swaggerdoc": {
     "dirScanner": "E:\\github\\napi\\config\\config.default.js",
     "apiInfo": {
@@ -23,6 +15,14 @@
     "routerMap": "E:\\github\\napi\\config\\config.default.js",
     "enable": "E:\\github\\napi\\config\\config.default.js",
     "basePath": "E:\\github\\napi\\node_modules\\_egg-swagger-doc@2.3.2@egg-swagger-doc\\config\\config.default.js"
+  },
+  "sequelize": {
+    "dialect": "E:\\github\\napi\\config\\config.default.js",
+    "host": "E:\\github\\napi\\config\\config.default.js",
+    "port": "E:\\github\\napi\\config\\config.default.js",
+    "database": "E:\\github\\napi\\config\\config.default.js",
+    "username": "E:\\github\\napi\\config\\config.default.js",
+    "password": "E:\\github\\napi\\config\\config.default.js"
   },
   "session": {
     "maxAge": "E:\\github\\napi\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
@@ -180,7 +180,8 @@
     "version": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
     "description": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
     "scripts": {
-      "dev": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+      "dev": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "dbinit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
     },
     "repository": {
       "type": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
@@ -195,12 +196,14 @@
     "homepage": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
     "dependencies": {
       "egg": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "egg-sequelize": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
       "egg-swagger-doc": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
-      "mysql2": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
-      "sequelize": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+      "mysql2": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+      "egg-bin": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "egg-sequelize-auto": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "mysql2": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
     }
   },
   "baseDir": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",

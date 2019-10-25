@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "dbinit": "egg-sequelize-auto -o ./app/model -h localhost -p 3306 -d napi -u root -x haosql"
   },
   "repository": {
     "type": "git",
@@ -24,11 +25,13 @@
   "homepage": "https://github.com/MonkSoul/napi#readme",
   "dependencies": {
     "egg": "^2.24.0",
+    "egg-sequelize": "^5.2.0",
     "egg-swagger-doc": "^2.3.2",
-    "mysql2": "^1.7.0",
-    "sequelize": "^5.21.1"
+    "mysql2": "^1.7.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.14.0"
+    "egg-bin": "^4.14.0",
+    "egg-sequelize-auto": "^0.1.1",
+    "mysql2": "^1.7.0"
   }
 }

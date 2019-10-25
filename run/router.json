@@ -32,8 +32,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/v1/user/getById",
-    "regexp": "/^\\/v1\\/user\\/getById(?:\\/(?=$))?$/",
+    "path": "/v1/member/getMemberById",
+    "regexp": "/^\\/v1\\/member\\/getMemberById(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

@@ -14,3 +14,9 @@ module.exports.swaggerdoc = {
     enable: true,   // 启用 swagger-ui 默认启用
     package: 'egg-swagger-doc', // 指定 swagger 包名称
 };
+
+// 配置 egg-sequelize 插件信息
+exports.sequelize = {
+    enable: true, // 启用 sequelize 默认启用
+    package: 'egg-sequelize', // 指定 egg-sequelize 包名称
+};
