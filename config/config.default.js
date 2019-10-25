@@ -15,11 +15,11 @@ module.exports.keys = "monksoul.napi";
 // 数据库配置
 module.exports.dbconfig = {
     dialect: 'mysql',   // 数据库类型，支持 mysql，sqlite,mssql,pgsql,oracle
-    host: "120.78.65.118",  // 数据库服务器地址
+    host: "localhost",  // 数据库服务器地址
     port: 3306, // 数据库连接端口号
-    database: "youlian_rc", // 数据库名称
-    username: "test",   // 数据库登录用户名
-    password: "zhyl@test.com"   // 数据库登录密码
+    database: "napi", // 数据库名称
+    username: "napi",   // 数据库登录用户名
+    password: "napi"   // 数据库登录密码
 };
 
 // egg-swagger-doc 配置信息
