@@ -10,11 +10,6 @@
  */
 
 module.exports = {
-    // 会员基本信息类型
-    MemberDto: {
-        Id: { type: 'integer' },    // 标识
-        Name: { type: 'string' },   // 名称
-    },
     // 新增/编辑会员模型
     CreateOrUpdateMemberDto: {
         Name: { type: 'string' },   // 名称
