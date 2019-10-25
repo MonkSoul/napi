@@ -1,0 +1,296 @@
+{
+  "keys": "E:\\github\\napi\\config\\config.default.js",
+  "dbconfig": {
+    "dialect": "E:\\github\\napi\\config\\config.default.js",
+    "host": "E:\\github\\napi\\config\\config.default.js",
+    "port": "E:\\github\\napi\\config\\config.default.js",
+    "database": "E:\\github\\napi\\config\\config.default.js",
+    "username": "E:\\github\\napi\\config\\config.default.js",
+    "password": "E:\\github\\napi\\config\\config.default.js"
+  },
+  "swaggerdoc": {
+    "dirScanner": "E:\\github\\napi\\config\\config.default.js",
+    "apiInfo": {
+      "title": "E:\\github\\napi\\config\\config.default.js",
+      "description": "E:\\github\\napi\\config\\config.default.js",
+      "version": "E:\\github\\napi\\config\\config.default.js"
+    },
+    "schemes": "E:\\github\\napi\\config\\config.default.js",
+    "consumes": "E:\\github\\napi\\config\\config.default.js",
+    "produces": "E:\\github\\napi\\config\\config.default.js",
+    "securityDefinitions": "E:\\github\\napi\\config\\config.default.js",
+    "enableSecurity": "E:\\github\\napi\\config\\config.default.js",
+    "routerMap": "E:\\github\\napi\\config\\config.default.js",
+    "enable": "E:\\github\\napi\\config\\config.default.js",
+    "basePath": "E:\\github\\napi\\node_modules\\_egg-swagger-doc@2.3.2@egg-swagger-doc\\config\\config.default.js"
+  },
+  "session": {
+    "maxAge": "E:\\github\\napi\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "key": "E:\\github\\napi\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\github\\napi\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js",
+    "encrypt": "E:\\github\\napi\\node_modules\\_egg-session@3.1.0@egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+    "protocolWhiteList": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-swagger-doc@2.3.2@egg-swagger-doc\\config\\config.default.js",
+      "type": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "useSession": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "cookieName": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "sessionName": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "headerName": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "bodyName": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "queryName": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "value": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.local.js",
+      "maxAge": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "value": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "value": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "policy": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "E:\\github\\napi\\node_modules\\_egg-security@2.7.0@egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\github\\napi\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\github\\napi\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\github\\napi\\node_modules\\_egg-jsonp@2.0.0@egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\github\\napi\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\github\\napi\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\github\\napi\\node_modules\\_egg-onerror@2.1.0@egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\github\\napi\\node_modules\\_egg-i18n@2.1.1@egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\github\\napi\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\github\\napi\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js",
+      "development": "E:\\github\\napi\\node_modules\\_egg-watcher@3.1.0@egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\github\\napi\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js",
+      "file": "E:\\github\\napi\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\github\\napi\\node_modules\\_egg-schedule@3.6.4@egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "fields": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "files": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\github\\napi\\node_modules\\_egg-multipart@2.9.0@egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "E:\\github\\napi\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\github\\napi\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "fastReady": "E:\\github\\napi\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\github\\napi\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\github\\napi\\node_modules\\_egg-development@2.4.3@egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\github\\napi\\node_modules\\_egg-logrotator@3.1.0@egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dir": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "dynamic": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "preload": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "buffer": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\github\\napi\\node_modules\\_egg-static@2.2.0@egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "cache": "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js",
+    "mapping": "E:\\github\\napi\\node_modules\\_egg-view@2.1.2@egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "name": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "proxy": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "ipHeaders": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "hostHeaders": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "version": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "description": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "scripts": {
+      "dev": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "url": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "keywords": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "author": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "license": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "bugs": {
+      "url": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "homepage": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "egg-swagger-doc": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "mysql2": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "sequelize": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    }
+  },
+  "baseDir": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "HOME": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "rundir": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "notFound": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "sitefile": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "middlewares": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "httpClient": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "encoding": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "formLimit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "jsonLimit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "textLimit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "strict": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "depth": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "parameterLimit": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "encoding": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "env": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "level": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "consoleLevel": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "outputJSON": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "buffer": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "appLogName": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "coreLogName": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "agentLogName": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "errorLogName": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "maxSockets": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "logging": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "serverTimeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "port": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+      "hostname": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js",
+    "responseTimeout": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\github\\napi\\node_modules\\_egg@2.24.0@egg\\config\\config.default.js"
+}
