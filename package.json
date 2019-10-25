@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "dev": "egg-bin dev",
+    "debug": "egg-bin debug",
     "dbinit": "egg-sequelize-auto -o ./app/model -h localhost -p 3306 -d napi -u root -x haosql"
   },
   "repository": {
@@ -25,6 +26,7 @@
   "homepage": "https://github.com/MonkSoul/napi#readme",
   "dependencies": {
     "egg": "^2.24.0",
+    "egg-scripts": "^2.11.1",
     "egg-sequelize": "^5.2.0",
     "egg-swagger-doc": "^2.3.2",
     "egg-validate": "^2.0.2",
