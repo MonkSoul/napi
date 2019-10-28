@@ -26,3 +26,9 @@ exports.validate = {
     enable: true,    // 启用 参数验证 默认启用
     package: 'egg-validate',    // 指定 egg-validate 包名称
 };
+
+// 配置 egg-cors 跨域
+exports.cors= {
+    enable: true,
+    package: 'egg-cors'
+};

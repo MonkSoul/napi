@@ -20,3 +20,9 @@ exports.swaggerdoc = swaggerdoc;
 
 // 数据库配置
 exports.sequelize = databaseconfig;
+
+// 跨域配置
+exports.cors = {
+    origin: '*',
+    allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS'
+};
