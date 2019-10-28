@@ -13,10 +13,10 @@ const databaseconfig = require("./core/database.config");
 const swaggerdoc = require("./core/swagger.config");
 
 // 配置项目唯一的标识
-module.exports.keys = "monksoul.napi";
+exports.keys = "monksoul.napi";
 
 // egg-swagger-doc 配置信息
-module.exports.swaggerdoc = swaggerdoc;
+exports.swaggerdoc = swaggerdoc;
 
 // 数据库配置
-module.exports.sequelize = databaseconfig;
+exports.sequelize = databaseconfig;

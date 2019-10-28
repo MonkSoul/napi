@@ -14,5 +14,10 @@ module.exports = {
     JsonResult: {
         success: { type: 'boolean' },    // 结果
         results: { type: 'string' }     // 服务器返回的数据
+    },
+    // 默认分页类型
+    PageParams: {
+        pageIndex: { type: 'integer', min: 1 },
+        pageSize: { type: 'integer', min: 2 }
     }
 };

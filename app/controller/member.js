@@ -9,8 +9,7 @@
  * 修改时间：NONE
  */
 
-const { JsonBody } = require("../util/ResultHelper");
-const { Controller } = require("egg");
+const Controller = require("./baseController");
 
 /**
 * @controller MemberService 会员接口
@@ -28,7 +27,8 @@ class MemberController extends Controller {
 
         var id = ctx.query.id;
         const entity = await service.member.getById(id);
-        ctx.body = JsonBody(entity);
+
+        this.jsonBody(entity);
     }
 
     /**
@@ -41,11 +41,12 @@ class MemberController extends Controller {
     async createMember() {
         const { ctx, service } = this;
 
-        var model = ctx.request.body;
         ctx.validate(ctx.rule.CreateOrUpdateMemberDto);
+
+        var model = ctx.request.body;
         const result = await service.member.create(model);
 
-        ctx.body = JsonBody(result);
+        this.jsonBody(result);
     }
 
     /**
@@ -59,11 +60,12 @@ class MemberController extends Controller {
     async updateMember() {
         const { ctx, service } = this;
 
-        var model = ctx.request.body;
         ctx.validate(ctx.rule.CreateOrUpdateMemberDto);
+
+        var model = ctx.request.body;
         const result = await service.member.update(ctx.query.id, model);
 
-        ctx.body = JsonBody(result);
+        this.jsonBody(result);
     }
 
     /**
@@ -77,7 +79,26 @@ class MemberController extends Controller {
         const { ctx, service } = this;
 
         const result = await service.member.destroy(ctx.query.id);
-        ctx.body = JsonBody(result);
+
+        this.jsonBody(result);
+    }
+
+    /**
+    * @summary 分页获取会员列表
+    * @description 分页获取会员列表
+    * @router post /v1/member/getMembers
+    * @request body PageParams pageInfo 分页信息
+    * @response 200 JsonResult 操作结果
+    */
+    async getMembers() {
+        const { ctx, service } = this;
+
+        ctx.validate(ctx.rule.PageParams);
+
+        var model = ctx.request.body;
+        const results = await service.member.getDatasByPage(model.pageIndex, model.pageSize);
+
+        this.jsonBody(results);
     }
 }
 

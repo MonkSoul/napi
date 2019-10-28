@@ -10,7 +10,5 @@
  */
 
 module.exports = app => {
-    const { router, controller } = app;
-
-    router.get('/', controller.home.swagger);   // 配置 swagger 默认首页
+    app.router.redirect('/', '/swagger-ui.html', 302);   // 配置 swagger 默认首页
 };

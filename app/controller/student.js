@@ -9,8 +9,7 @@
  * 修改时间：NONE
  */
 
-const { JsonBody } = require("../util/ResultHelper");
-const { Controller } = require("egg");
+const Controller = require("./baseController");
 
 /**
 * @controller StudentService 学生接口
@@ -28,7 +27,8 @@ class StudentController extends Controller {
 
         var id = ctx.query.id;
         const entity = await service.student.getById(id);
-        ctx.body = JsonBody(entity);
+
+        this.jsonBody(entity);
     }
 
     /**
@@ -41,13 +41,13 @@ class StudentController extends Controller {
     async createStudent() {
         const { ctx, service } = this;
 
-        var model = ctx.request.body;
         ctx.validate(ctx.rule.CreateStudentDto);
 
+        var model = ctx.request.body;
         model.CreatedTime = "2019-10-26 16:35:20";  // 系统记录的
         const result = await service.student.create(model);
 
-        ctx.body = JsonBody(result);
+        this.jsonBody(result);
     }
 
     /**
@@ -61,13 +61,13 @@ class StudentController extends Controller {
     async updateStudent() {
         const { ctx, service } = this;
 
-        var model = ctx.request.body;
         ctx.validate(ctx.rule.UpdateStudentDto);
 
+        var model = ctx.request.body;
         model.UpdatedTime = "2019-10-26 16:35:20";  // 系统记录的
         const result = await service.student.update(ctx.query.id, model);
 
-        ctx.body = JsonBody(result);
+        this.jsonBody(result);
     }
 
     /**
@@ -81,7 +81,26 @@ class StudentController extends Controller {
         const { ctx, service } = this;
 
         const result = await service.student.destroy(ctx.query.id);
-        ctx.body = JsonBody(result);
+
+        this.jsonBody(result);
+    }
+
+    /**
+    * @summary 分页获取学生列表
+    * @description 分页获取学生列表
+    * @router post /v1/student/getStudents
+    * @request body PageParams pageInfo 分页信息
+    * @response 200 JsonResult 操作结果
+    */
+    async getStudents() {
+        const { ctx, service } = this;
+
+        ctx.validate(ctx.rule.PageParams);
+
+        var model = ctx.request.body;
+        const results = await service.student.getDatasByPage(model.pageIndex, model.pageSize);
+
+        this.jsonBody(results);
     }
 }
 
