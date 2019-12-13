@@ -10,7 +10,7 @@
  */
 
 // 配置 egg-swagger-doc 插件信息
-module.exports.swaggerdoc = {
+exports.swaggerdoc = {
     enable: true,   // 启用 swagger-ui 默认启用
     package: 'egg-swagger-doc', // 指定 swagger 包名称
 };
@@ -28,7 +28,7 @@ exports.validate = {
 };
 
 // 配置 egg-cors 跨域
-exports.cors= {
+exports.cors = {
     enable: true,
     package: 'egg-cors'
 };
